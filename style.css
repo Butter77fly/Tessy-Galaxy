@@ -5,6 +5,10 @@ html {
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
+    background: white;
+    padding: 40px;
+    margin: 0;
 }
 
 h1 {
@@ -85,12 +89,6 @@ section {
 * {
   box-sizing: border-box;
 }
-body {
-  font-family: Arial, sans-serif;
-  background: white;
-  padding: 40px;
-  margin: 0;
-}
 
 .slider {
   position: relative;
@@ -109,10 +107,7 @@ body {
 
 .slides {
   display: flex;
-  flex-wrap: nowrap;
-  gap: 20px;
   transition: transform 0.5s ease;
-  width: max-content;
 }
 
 .slide {
@@ -171,14 +166,16 @@ p {
 .next {
   right: 10px;
 }
-  @media (max-width: 768px) {
+  @media (min-width: 600px) {
     .slide {
       flex: 0 0 50%;
+      max-width: 50%;
     }
   }
-  @media (max-width: 500px) {
+  @media (min-width: 900px) {
     .slide {
-      flex: 0 0 100%;
+      flex: 0 0 33.33%;
+      max-width: 33.33%;
     }
   }
 
@@ -188,8 +185,6 @@ p {
 
   .story-content {
     color: rgb(209, 156, 58);
-    align-items: center;
-    justify-content: space-between;
     padding: 40px;
     margin: 20px;
 }
