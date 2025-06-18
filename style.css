@@ -188,10 +188,8 @@ p {
 
   .story-content {
     color: rgb(209, 156, 58);
-    display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 40px;
+    justify-content: space-between;
     padding: 40px;
     margin: 20px;
 }
