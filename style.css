@@ -1,0 +1,237 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+  font-family: 'Great Vibes', cursive;
+}
+.hero {
+    background: rgb(196, 79, 196) url('https://eatability.com.au/wp-content/uploads/2022/05/20-Nigerian-Catering-Foods-Ideas-13.jpg') center/cover no-repeat;
+    height: 90vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+ nav {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(0, 0, 0, 0.4);
+      z-index: 10;
+    }
+
+    nav img {
+      height: 60px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 30px;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+      transition: color 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: #f0c040;
+    }
+
+.hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-content span {
+    font-weight: bold;
+}
+
+.hero-content button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.menus {
+    background-color: rgb(196, 79, 196);
+    margin: 30px;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: white;
+  padding: 40px;
+  margin: 0;
+}
+
+.slider {
+  position: relative;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+  background: orange;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.slides-wrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
+.slides {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  transition: transform 0.5s ease;
+  width: max-content;
+}
+
+.slide {
+  flex: 0 0 auto;
+  width: 300px;
+  min-width: 300px;
+  margin-right: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.slide img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.info {
+  padding: 15px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-weight: bold;
+  color: #555;
+}
+
+p {
+  font-size: 14px;
+  margin-top: 8px;
+  color: #555;
+}
+
+.nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2em;
+  color: #fff;
+  background: rgba(0,0,0,0.5);
+  padding: 0 10px;
+  cursor: pointer;
+  user-select: none;
+  z-index: 10;
+}
+.prev {
+  left: 10px;
+}
+.next {
+  right: 10px;
+}
+  @media (max-width: 768px) {
+    .slide {
+      flex: 0 0 50%;
+    }
+  }
+  @media (max-width: 500px) {
+    .slide {
+      flex: 0 0 100%;
+    }
+  }
+
+  .story {
+    background-color: orange;
+  }
+
+  .story-content {
+    color: rgb(209, 156, 58);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+    margin: 20px;
+}
+
+.story-content img {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .story-content {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.gallery {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 40px;
+    background-color: rgb(22, 235, 22);
+}
+
+.gallery img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+footer {
+    background: rgb(20, 3, 27);
+    color: white;
+    padding: 20px;
+}
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+}
