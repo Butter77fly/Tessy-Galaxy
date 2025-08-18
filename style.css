@@ -1,0 +1,262 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
+    background: white;
+    padding: 40px;
+    margin: 0;
+}
+
+h1 {
+  font-family: 'Great Vibes', cursive;
+}
+.hero {
+    background: rgb(196, 79, 196) url('https://eatability.com.au/wp-content/uploads/2022/05/20-Nigerian-Catering-Foods-Ideas-13.jpg') center/cover no-repeat;
+    height: 90vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.reserve-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.reserve-btn:hover {
+  background-color: orange;
+}
+
+ nav {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(0, 0, 0, 0.4);
+      z-index: 10;
+    }
+
+    nav img {
+      height: 60px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 30px;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+      transition: color 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: #f0c040;
+    }
+
+.hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-content span {
+    font-weight: bold;
+}
+
+.hero-content button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.menu-grid-section h2 {
+  font-size: 36px;
+  color: orangered;
+}
+
+.menu-grid-section {
+  padding: 40px 20px;
+  text-align: center;
+  background: #fff;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.menu-item {
+  background-color: #fdfdfd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.menu-item:hover {
+  transform: translateY(-5px);
+}
+
+.menu-item img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.menu-info {
+  padding: 15px;
+}
+
+.menu-info h3 {
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.menu-info p {
+  font-size: 14px;
+  color: #555;
+}
+
+.price {
+  color: orange;
+  font-weight: bold;
+}
+
+.services-section {
+  width: 100%;
+  padding: 60px 20px;
+  background-color: #f8f4ff;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.services-section h2 {
+  font-size: 36px;
+  color: orangered;
+  margin-bottom: 30px;
+}
+
+.services-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.service {
+  background-color: white;
+  padding: 30px;
+  width: 250px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.icon {
+  color: #facc15;
+  margin-bottom: 15px;
+}
+
+.service i {
+  display: block;
+}
+
+.service:hover {
+  transform: translateY(-5px);
+}
+
+.service h3 {
+  color: #f97316;
+  margin-bottom: 20px;
+}
+
+.service p {
+  color: #333;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .services-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.footer {
+  background-color: rgb(29, 2, 2);
+  color: white;
+  padding: 40px 20px;
+  text-align: justify;
+}
+
+.footer .contact-info p {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.footer i {
+  margin-right: 10px;
+  color: #f97316;
+}
+
+.footer .social-icons {
+  margin-top: 20px;
+}
+
+.footer .social-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.footer .social-icons a:hover {
+  color: #facc15;
+}
+
+.footer .copyright {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+.social-icons a:hover {
+    color: #f0c040;
+    }
