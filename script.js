@@ -1,9 +1,3 @@
-function reserveTable() {
-    alert('Redirecting to reservation page...');
-    // Here you could redirect to a real reservation page
-    // window.location.href = "reservation.html";
-}
-
 let index = 0;
 
 function moveSlide(step) {

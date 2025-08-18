@@ -1,259 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tessy Galaxy</title>
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
 
-    <!-- Home Section -->
-    <section id="home" class="hero">
-      <nav>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tessy Galaxy</title>
+  <link rel="icon" type="image/png" href="logo.png">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+  <!-- Home Section -->
+  <section id="home" class="hero">
+    <nav>
       <img src="logo.png" alt="Restaurant Logo">
       <div class="nav-links">
         <a href="#home">Home</a>
         <a href="#menus">Menu</a>
-        <a href="#about">About</a>
+        <a href="#services">Services</a>
         <a href="#contact">Contact</a>
       </div>
     </nav>
-        <div class="hero-content">
-            <h1>Welcome<br><span>We are Tessy Galaxy</span></h1>
-            <button onclick="reserveTable()">Reserve a Table</button>
-        </div>
-    </section>
+    <div class="hero-content">
+      <h1>Welcome,<br><span>We are Tessy Galaxy</span></h1>
+      <h1>Drink, Dine and Dance</h1>
+      <button class="reserve-btn" onclick="window.open('https://wa.me/2348123456789', '_blank')">Reserve a Table</button>
+    </div>
+  </section>
 
-    <!-- Menus Section -->
-    <section id="menus" class="menus">
-        <h2>Discover Our Menus</h2>
-        <div class="slider">
-            <div class="slides-wrapper">
-              <div class="slides" id="slides">
-                <div class="slide">
-                  <img src="https://lagosbukagrillandbar.com/wp-content/uploads/2024/09/pomo.jpg" alt="Peppered Meat">
-                  <div class="info">
-                    <div class="top">
-                      <h2>Peppered Meat</h2>
-                      <span class="price">N2,000</span>
-                    </div>
-                    <p>Presenting our sizzling peppered meat—tender, perfectly grilled cuts coated in a rich, spicy pepper sauce, bursting with bold flavors and a smoky aroma. A fiery delight for the adventurous palate!
-</p>
-                  </div>
-                </div>
+  <section id="menus" class="menu-grid-section">
+  <h2>Our Menu</h2>
+  <div class="menu-grid">
 
-                <div class="slide">
-                  <img src="https://i.ytimg.com/vi/VRdl8oZgtgE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAm1HmCRKG1aLehINP43Rriy1r4yw" alt="Chicken Peppersoup">
-                  <div class="info">
-                    <div class="top">
-                      <h2>Chicken Peppersoup</h2>
-                      <span class="price">N3,000</span>
-                    </div>
-                    <p>A soul-warming bowl of goodness—juicy chicken, slow-cooked in a fragrant, spicy broth with a medley of bold herbs and peppers. Light yet deeply flavorful, with just the right kick to awaken the senses.</p>
-                  </div>
-                </div>
+    <div class="menu-item">
+      <img src="https://i.ytimg.com/vi/g9BAnNSbHNE/maxresdefault.jpg" alt="Peppered Meat">
+      <div class="menu-info">
+        <h3>Peppered Meat <span class="price">₦2,000</span></h3>
+        <p>Presenting our sizzling peppered meat—tender, perfectly grilled cuts coated in a rich, spicy pepper 
 
-                <div class="slide">
-                  <img src="https://img-global.cpcdn.com/recipes/5437d2cf1e3fdb06/1200x630cq70/photo.jpg" alt="Catfish Peppersoup">
-                  <div class="info">
-                    <div class="top">
-                      <h2>Catfish Peppersoup</h2>
-                      <span class="price">N12,000</span>
-                    </div>
-                    <p>A rich, spicy catfish pepper soup, slow-cooked with fresh peppers, aromatic herbs, and traditional spices. The fish is tender and flavorful, making every sip warm, soothing, and deeply satisfying.</p>
-                  </div>
-                </div>
+                sauce, bursting with bold flavors and a smoky aroma. A fiery delight for the adventurous palate! </p>
+      </div>
+    </div>
 
-                <div class="slide">
-                  <img src="https://dfnigeriafoodtruck.com/wp-content/uploads/2022/06/ap_nkwobi.webp" alt="Nkwobi">
-                   <div class="info">
-                    <div class="top">
-                      <h2>Nkwobi</h2>
-                      <span class="price">N3,500</span>
-                    </div>
-                    <p>Soft, spicy cow foot delicacy, richly coated in thick palm oil sauce mixed with Ugba, pepper, and traditional spices. Served sizzling and garnished with onions—this Nkwobi na real Igbo pride, bold and satisfying in every bite!</p>
-                  </div>
-                </div>
+    <div class="menu-item">
+      <img src="https://i.ytimg.com/vi/VRdl8oZgtgE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAm1HmCRKG1aLehINP43Rriy1r4yw" alt="Chicken Peppersoup">
+      <div class="menu-info">
+        <h3>Chicken Peppersoup <span class="price">₦3,500</span></h3>
+        <p>A soul-warming bowl of goodness—juicy chicken, slow-cooked in a fragrant, spicy broth with a medley of bold herbs and peppers. Light yet deeply flavorful, with just the right kick to awaken the senses.</p>
+      </div>
+    </div>
 
-                <div class="slide">
-                  <img src="https://vibrantwestafricancuisine.com/wp-content/uploads/2018/01/Colors-of-my-Childhood-Nigerian-Fried-Rice-01.jpg" alt="Fried Rice">
-                   <div class="info">
-                    <div class="top">
-                      <h2>Fried Rice</h2>
-                      <span class="price">N2,500</span>
-                    </div>
-                    <p>Colorful, aromatic, and bursting with flavor—this fried rice is wok-tossed with vibrant vegetables, savory seasonings, and perfectly cooked protein, creating a deliciously balanced dish with every bite.</p>
-                  </div>
-                </div>
+    <div class="menu-item">
+      <img src="https://img-global.cpcdn.com/recipes/5437d2cf1e3fdb06/1200x630cq70/photo.jpg" alt="Catfish Peppersoup">
+      <div class="menu-info">
+        <h3>Catfish Peppersoup <span class="price">₦12,000</span></h3>
+        <p>A rich, spicy catfish pepper soup, slow-cooked with fresh peppers, aromatic herbs, and traditional spices. The fish is tender and flavorful, making every sip warm, soothing, and deeply satisfying.</p>
+      </div>
+    </div>
 
-                <div class="slide">
-                  <img src="https://www.food.goglowonline.com/upload/IMG_2827.jpeg" alt="Jollof Rice">
-                   <div class="info">
-                    <div class="top">
-                      <h2>Jollof Rice</h2>
-                      <span class="price">N2,500</span>
-                    </div>
-                    <p>Vibrant, smoky, and irresistibly flavorful—each grain of this Jollof rice is simmered in a rich tomato sauce, infused with aromatic spices, and finished with a hint of firewood essence for that authentic depth.</p>
-                  </div>
-                </div>
+    <div class="menu-item">
+      <img src="https://dfnigeriafoodtruck.com/wp-content/uploads/2022/06/ap_nkwobi.webp" alt="Nkwobi">
+      <div class="menu-info">
+        <h3>Nkwobi <span class="price">₦3,500</span></h3>
+        <p>oft, spicy cow foot delicacy, richly coated in thick palm oil sauce mixed with Ugba, pepper, and 
 
-                <div class="slide">
-                  <img src="https://www.vmcdn.ca/f/files/alimoshotoday/images/953.png;w=960" alt="Coconut Rice">
-                   <div class="info">
-                    <div class="top">
-                      <h2>Coconut Rice</h2>
-                      <span class="price">N2,500</span>
-                    </div>
-                    <p>Fluffy rice simmered in creamy coconut milk, infused with fragrant spices, and finished with a delicate, nutty aroma. Every spoonful is a perfect balance of rich, comforting flavors and tropical freshness.</p>
-                  </div>
-                </div>
+                traditional spices. Served sizzling and garnished with onions—this Nkwobi na real Igbo pride, bold and 
 
-                <div class="slide">
-                  <img src="https://i.ytimg.com/vi/KpwvzvaNC5U/maxresdefault.jpg" alt="Meat Pie">
-                   <div class="info">
-                    <div class="top">
-                      <h2>Meatpie</h2>
-                      <span class="price">N1,200</span>
-                    </div>
-                    <p>A golden, flaky crust encasing a rich, savory filling of seasoned minced meat, potatoes, and carrots—warm, hearty, and bursting with deliciously spiced flavor in every bite.</p>
-                  </div>
-                </div>
+                satisfying in every bite!</p>
+      </div>
+    </div>
 
-                <div class="slide">
-                  <img src="https://vegnews.com/media/W1siZiIsIjM5OTA5L1ZlZ05ld3MudmFzaWxpeWJ1ZGFyaW4uR2V0dHkuanBnIl0sWyJwIiwiY3JvcF9yZXNpemVkIiwiMTk5NXgxMTc5KzIrNzIiLCIxMzYweDgwNF4iLHsiZm9ybWF0IjoianBnIn1dLFsicCIsIm9wdGltaXplIl1d/VegNews.vasiliybudarin.Getty.jpg?sha=5a97090b2098ae2d" alt="Popcorn">
-                   <div class="info">
-                    <div class="top">
-                      <h2>Popcorn</h2>
-                      <span class="price">N1,000</span>
-                    </div>
-                    <p>Fresh, hot, and perfectly crunchy—this popcorn don soak butter and just the right amount of salt or sugar, giving that sweet or savory burst wey go make you no wan drop the pack!</p>
-                  </div>
-                </div>
+    <div class="menu-item">
+      <img src="https://vibrantwestafricancuisine.com/wp-content/uploads/2018/01/Colors-of-my-Childhood-Nigerian-Fried-Rice-01.jpg" alt="Fried Rice">
+      <div class="menu-info">
+        <h3>Fried Rice <span class="price">₦3,500</span></h3>
+        <p>Colorful, aromatic, and bursting with flavor—this fried rice is wok-tossed with vibrant vegetables, 
 
-                <div class="slide">
-                  <img src="https://www.thedailymeal.com/img/gallery/what-a-beginner-needs-to-know-about-ordering-shawarma/l-intro-1681948540.jpg" alt="Shawarma">
-                   <div class="info">
-                    <div class="top">
-                      <h2>Shawarma</h2>
-                      <span class="price">N3,000</span>
-                    </div>
-                    <p>Soft, toasty flatbread loaded with juicy, well-spiced chicken or beef, crunchy veggies, and creamy, flavorful sauce—wrapped up tight for that perfect bite of pure enjoyment!</p>
-                  </div>
-                </div>
+                savory seasonings, and perfectly cooked protein, creating a deliciously balanced dish with every bite. </p>
+      </div>
+    </div>
 
-                <div class="slide">
-                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSxX7vTUdeXj-JiPSav22nf8fFvW02F1_l2g&s" alt="Moi-moi">
-                   <div class="info">
-                    <div class="top">
-                      <h2>Moi-moi</h2>
-                      <span class="price">N1,000</span>
-                    </div>
-                    <p>Soft, moist, and packed with flavor—this steamed bean pudding is blended with peppers, onions, and spices, then cooked to perfection for that rich, savory taste wey dey burst for mouth!</p>
-                  </div>
-                </div>
+    <div class="menu-item">
+      <img src="https://www.food.goglowonline.com/upload/IMG_2827.jpeg" alt="Jollof Rice">
+      <div class="menu-info">
+        <h3>Jollof Rice <span class="price">₦3,500</span></h3>
+        <p>Vibrant, smoky, and irresistibly flavorful—each grain of this Jollof rice is simmered in a rich tomato 
 
-                <div class="slide">
-                  <img src="https://i.ytimg.com/vi/cntL38RXgaQ/sddefault.jpg" alt="Noodles">
-                   <div class="info">
-                    <div class="top">
-                      <h2>Noodles</h2>
-                      <span class="price">N2,000</span>
-                    </div>
-                    <p>Perfectly cooked noodles, stir-fried with a medley of savory spices and crisp vegetables, served alongside a fluffy, golden egg—simple, satisfying, and packed with flavor.</p>
-                  </div>
-                </div>
+                sauce, infused with aromatic spices, and finished with a hint of firewood essence for that authentic 
 
-                <div class="slide">
-                  <img src="https://img-global.cpcdn.com/recipes/de68aa822d8b2566/680x482cq70/easy-egusi-soup-recipe-main-photo.jpg" alt="Egusi Soup">
-                   <div class="info">
-                    <div class="top">
-                      <h2>Egusi Soup</h2>
-                      <span class="price">N3,500</span>
-                    </div>
-                    <p>Na better Egusi soup wey thick well well, full of ground melon seeds, palm oil, and well-seasoned meats. With correct vegetables inside, e dey carry that rich, native flavor wey go make you chop am with two hands!</p>
-                  </div>
-                </div>
+                depth.</p>
+      </div>
+    </div>
 
-                <div class="slide">
-                  <img src="https://i.pinimg.com/736x/ab/ed/c1/abedc17a8201d0d4a857f0d118548679.jpg" alt="Edi Kai-kong">
-                   <div class="info">
-                    <div class="top">
-                      <h2>Edi Kai-kong</h2>
-                      <span class="price">N5,000</span>
-                    </div>
-                    <p>Our Calabar chef don deliver correct Edi Kai Kong—rich, hearty soup full of fresh waterleaf and ugu, mixed with well-seasoned meats and plenty stockfish. E thick well well, with that native flavor wey go make you clean plate!</p>
-                  </div>
-                </div>
+    <div class="menu-item">
+      <img src="https://www.vmcdn.ca/f/files/alimoshotoday/images/953.png;w=960" alt="Coconut Rice">
+      <div class="menu-info">
+        <h3>Coconut Rice <span class="price">₦3,500</span></h3>
+        <p>luffy rice simmered in creamy coconut milk, infused with fragrant spices, and finished with a 
 
-                <div class="slide">
-                  <img src="https://www.royacshop.com/wp-content/uploads/2019/08/How-to-Cook-Oha-Soup-with-Achi-and-Egusi-711x400.jpg" alt="Oha Soup">
-                   <div class="info">
-                    <div class="top">
-                      <h2>Oha Soup</h2>
-                      <span class="price">N4,000</span>
-                    </div>
-                    <p>This one na correct Igbo special—thick, rich Oha soup cooked with soft Oha leaves, cocoyam thickener, and plenty well-seasoned meats. Every spoonful carry that deep, native flavor wey go make you remember village!</p>
-                  </div>
-                </div>
+                delicate, nutty aroma. Every spoonful is a perfect balance of rich, comforting flavors and tropical 
 
-              </div>
-            </div>
-            <div class="nav prev" onclick="moveSlide(-1)">❮</div>
-            <div class="nav next" onclick="moveSlide(1)">❯</div>
-          </div>
-        </div>
-          
-    </section>
+                freshness.</p>
+      </div>
+    </div>
 
-    <!-- Our Story Section -->
-    <section id="about" class="story">
-        <h2>About Us</h2>
-        <div class="story-content">
-            <img src="happy-african-american-women-friends-600nw-1817722460.webp" alt="Lounge Image">
-            <p>Where great food, vibrant culture, and unforgettable entertainment come together.
+    <div class="menu-item">
+      <img src="https://i.ytimg.com/vi/KpwvzvaNC5U/maxresdefault.jpg" alt="Meat Pie" alt="Meatpie">
+      <div class="menu-info">
+        <h3>Meatpie <span class="price">₦1,200</span></h3>
+        <p>A golden, flaky crust encasing a rich, savory filling of seasoned minced meat, potatoes, and 
 
-At Tessy Galaxy, every visit is a celebration of Africa’s rich flavors, sounds, and spirit. Whether you're here for a delicious meal, to catch a live football match, enjoy a night of comedy and music, or simply relax with friends, you’ve come to the right place.
+                carrots—warm, hearty, and bursting with deliciously spiced flavor in every bite.</p>
+      </div>
+    </div>
 
-Step inside and let the aromas, rhythms, and energy of Africa surround you. Welcome home.
-Tessy Galaxy is more than just a restaurant—it’s an experience. Founded with a passion for African culture and hospitality, we are committed to offering the very best in food, entertainment, and atmosphere.
+    <div class="menu-item">
+      <img src="https://vegnews.com/media/W1siZiIsIjM5OTA5L1ZlZ05ld3MudmFzaWxpeWJ1ZGFyaW4uR2V0dHkuanBnIl0sWyJwIiwiY3JvcF9yZXNpemVkIiwiMTk5NXgxMTc5KzIrNzIiLCIxMzYweDgwNF4iLHsiZm9ybWF0IjoianBnIn1dLFsicCIsIm9wdGltaXplIl1d/VegNews.vasiliybudarin.Getty.jpg?sha=5a97090b2098ae2d" alt="Popcorn">
+      <div class="menu-info">
+        <h3>Popcorn <span class="price">₦1,000</span></h3>
+        <p>resh, hot, and perfectly crunchy—this popcorn don soak butter and just the right amount of salt or 
 
-Our menu features a wide variety of authentic African delicacies, carefully prepared using traditional recipes and fresh, locally sourced ingredients. From jollof rice and suya to egusi soup, grilled fish, and more, every dish is made to satisfy both heart and soul.
+                sugar, giving that sweet or savory burst wey go make you no wan drop the pack!</p>
+      </div>
+    </div>
 
-But Tessy Galaxy is also your go-to spot for fun and connection. We host regular live music, dance performances, stand-up comedy, talk shows, and themed nights that bring people together. And for sports lovers, our giant 8-by-5-foot HD screen makes every live match an exciting community event.
+    <div class="menu-item">
+      <img src="https://m.media-amazon.com/images/I/71NwkZRHX3L._UF350,350_QL80_.jpg" alt="Perfait">
+      <div class="menu-info">
+        <h3>Perfait <span class="price">₦2,000</span></h3>
+        <p>Smooth, creamy layers of yogurt or whipped cream, fresh juicy fruits, and crunchy granola come together 
 
-Whether you’re dining, dancing, laughing, or watching the big game, Tessy Galaxy is the place to be. Come hungry. Leave happy.
-</p>
-        </div>
-    </section>
+                in a parfait that’s both refreshing and satisfying—every spoonful na perfect balance of sweet and 
+
+                crunch!</p>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="https://www.thedailymeal.com/img/gallery/what-a-beginner-needs-to-know-about-ordering-shawarma/l-intro-1681948540.jpg" alt="Shawarma">
+      <div class="menu-info">
+        <h3>Shawarma <span class="price">₦3,000</span></h3>
+        <p>Soft, toasty flatbread loaded with juicy, well-spiced chicken or beef, crunchy veggies, and creamy, 
+
+                flavorful sauce—wrapped up tight for that perfect bite of pure enjoyment!</p>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSxX7vTUdeXj-JiPSav22nf8fFvW02F1_l2g&s" alt="Moimoi">
+      <div class="menu-info">
+        <h3>Moi-moi <span class="price">₦1,000</span></h3>
+        <p>Soft, moist, and packed with flavor—this steamed bean pudding is blended with peppers, onions, and 
+
+                spices, then cooked to perfection for that rich, savory taste wey dey burst for mouth!</p>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="https://i.ytimg.com/vi/cntL38RXgaQ/sddefault.jpg" alt="Noodles">
+      <div class="menu-info">
+        <h3>Noodles <span class="price">₦2,000</span></h3>
+        <p>Perfectly cooked noodles, stir-fried with a medley of savory spices and crisp vegetables, served 
+
+                alongside a fluffy, golden egg—simple, satisfying, and packed with flavor.</p>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="https://img-global.cpcdn.com/recipes/de68aa822d8b2566/680x482cq70/easy-egusi-soup-recipe-main-photo.jpg" alt="Egusi Soup">
+      <div class="menu-info">
+        <h3>Egusi Soup <span class="price">₦3,500</span></h3>
+        <p>Na better Egusi soup wey thick well well, full of rich hand-picked egusi, palm oil, and well-seasoned 
+
+                meats. With correct vegetables inside, e dey carry that rich, native flavor wey go make you chop am with 
+
+                two hands!</p>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="https://i.pinimg.com/736x/ab/ed/c1/abedc17a8201d0d4a857f0d118548679.jpg" alt="Edi Kai-kong">
+      <div class="menu-info">
+        <h3>Edi Kai-kong <span class="price">₦5,000</span></h3>
+        <p>Our Calabar chef don deliver correct Edi Kai Kong—rich, hearty soup full of fresh waterleaf and ugu, 
+
+                mixed with well-seasoned meats and plenty stockfish. E thick well well, with that native flavor wey go 
+
+                make you clean plate!</p>
+      </div>
+    </div>
+    
+    <div class="menu-item">
+      <img src="https://www.royacshop.com/wp-content/uploads/2019/08/How-to-Cook-Oha-Soup-with-Achi-and-Egusi-711x400.jpg" alt="Oha Soup">
+      <div class="menu-info">
+        <h3>Oha Soup <span class="price">₦4,000</span></h3>
+        <p>This one na correct Igbo special—thick, rich Oha soup cooked with soft Oha leaves, cocoyam thickener, 
+
+                and plenty well-seasoned meats. Every spoonful carry that deep, native flavor wey go make you remember 
+
+                village!</p>
+      </div>
+    </div>
+  </div>
+</section>
+  
+  <section class="services-section" id="services">
+  <h2>Our Services</h2>
+  <div class="services-container">
+    <div class="service">
+      <i class="fas fa-box fa-3x icon"></i>
+      <h3>Pickups</h3>
+      <p>Order online and pick up at your convenience—fresh, fast, and ready to go.</p>
+    </div>
+    <div class="service">
+      <i class="fas fa-motorcycle fa-3x icon"></i>
+      <h3>Delivery</h3>
+      <p>Get your favorite meals delivered hot and fast right to your doorstep.</p>
+    </div>
+    <div class="service">
+      <i class="fas fa-utensils fa-3x icon"></i>
+      <h3>Dine In</h3>
+      <p>Enjoy a cozy atmosphere and great service at our restaurant location.</p>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer class="footer" id= "contact">
+  <div class="contact-info">
+    <p><a href="mailto:tessygalaxy18@gmail.com?subject=Hello%20Tessy&body=I%20saw%20your%20website%20and%20wanted%20to%20say%20hi!"><i class="fas fa-envelope"></i> tessygalaxy18@gmail.com</p></a>
+    <p><a href="tel:+2348062380569"><i class="fas fa-phone"></i> +234 812 345 6789</p></a>
+    <p><a href="https://www.google.com/maps/dir//Tessy+Galaxy,+Amaigbo+471124,+Imo/@5.7383559,7.0339465,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x1043010964f0ef93:0x829574d9cfa549ef!2m2!1d7.1163485!2d5.7383618?entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D"><i class="fas fa-map-marker-alt"></i>Opposite Jones Filling Station Amaigbo</p></a>
+  </div>
+
+  <div class="social-icons">
+    <a href="https://web.facebook.com/people/Tessy-Galaxy/61576176755120/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.instagram.com/tessygalaxy/" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://wa.me/2348123456789" target="_blank"><i class="fab fa-whatsapp"></i></a>
+  </div>
 
 
-    <!-- Instagram Happenings Section -->
-    <section class="gallery">
-        <h2>Tessy <span>Gallery</span></h2>
-        <div class="gallery">
-            <img src="POINT 1.jpg" alt="Image 1">
-            <img src="POINT 2.jpg" alt="Image 2">
-            <img src="IMG-20250614-WA0019.jpg" alt="Image 3">
-            <img src="NO 1.jpg" alt="Image 4">
-            <img src="NO 2.jpg" alt="image 5">
-            <img src="NO 3.jpg" alt="Image 6">
-            <img src="NO 4.jpg" alt="Image 7">
-        </div>
-    </section>
 
-    <!-- Footer -->
-    <footer>
-        <p>Follow Along:</p>
-        <div id="contact" class="social-icons">
-            <a href="#">Facebook</a> |
-            <a href="#">Instagram</a> |
-            <a href="#">Email</a>
-        </div>
-        <p>&copy; 2025 Tessy Galaxy. All rights reserved.</p>
-    </footer>
+  <p class="copyright">&copy; 2025 Tessy Galaxy. All rights reserved.</p>
+</footer>
 
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
+
 </html>
