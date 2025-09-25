@@ -1,4 +1,4 @@
-<<<<<<< HEAD html {
+html {
   scroll-behavior: smooth;
 }
 
@@ -283,6 +283,7 @@ section {
 
 .social-icons a:hover {
   color: #f0c040;
+}
 
   .footer-bottom {
     text-align: center;
