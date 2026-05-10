@@ -59,7 +59,7 @@ nav img {
 
 .nav-links {
   display: flex;
-  gap: 15px;
+  gap: 10px;
 }
 
 .nav-links a {
@@ -192,6 +192,7 @@ section {
 
 .service i {
   display: block;
+  padding-right: 12px;
 }
 
 .service:hover {
