@@ -194,13 +194,9 @@ h3 {
 .logo-icon {
     width: 42px;
     height: 42px;
-    border: 2px solid var(--red);
-    color: var(--red);
+    border: 2px;
     display: grid;
     place-items: center;
-    font-family: var(--heading-font);
-    font-size: 1.2rem;
-    font-weight: 700;
 }
 
 .logo-text {
